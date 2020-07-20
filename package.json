@@ -1,0 +1,28 @@
+{
+  "name": "bykess-web",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Eddy Harskamp <info@eddyharskamp.nl>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.3.5",
+    "polished": "^3.6.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-namespace-from": "^7.10.4",
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "directory-named-webpack-plugin": "^4.0.1",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.1"
+  }
+}
