@@ -5,6 +5,9 @@ const optimizedImages = require('next-optimized-images')
 
 const nextConfig = {
   poweredByHeader: false,
+  devIndicators: {
+    autoPrerender: false,
+  },
   // TODO research target: 'serverless',
 
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {

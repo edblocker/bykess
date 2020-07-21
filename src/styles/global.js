@@ -8,7 +8,7 @@ export default createGlobalStyle`
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
-    color: #100100;
+    color: #fff;
   }
 
   body, html {
@@ -20,7 +20,8 @@ export default createGlobalStyle`
   }
 
   body {
-    padding: 60px 0 0 0;
+    background-color: #121212;
+    padding: 0;
   }
 
   * {
